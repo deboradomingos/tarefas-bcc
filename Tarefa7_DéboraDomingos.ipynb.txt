@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**João Augusto Mendes de Oliveira**"
+      ],
+      "metadata": {
+        "id": "wPbOajy7y3TX"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1) Faça um programa que mostre se o número inteiro guardado na variável **X** é par ou ímpar. Caso seja par, deve aparecer na tela: \"O número x é par\". Caso seja ímpar deve aparecer \"O número x é ímpar\""
+      ],
+      "metadata": {
+        "id": "VqkKL--sy0Z-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = float(input('Digite um número inteiro para saber se é par ou impar:'))\n",
+        "resto = numero % 2\n",
+        "\n",
+        "if resto == 0: \n",
+        "  print('O número x é par')\n",
+        "else:\n",
+        "  print('O número x é impar')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z-Xr1Ehr0rmd",
+        "outputId": "b38c4a62-7322-4a4a-f5fc-710211a587e6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número inteiro para saber se é par ou impar:5\n",
+            "O número x é impar\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
